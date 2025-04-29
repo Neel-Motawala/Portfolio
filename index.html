@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neel Motawala | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Hero -->
+    <div class="hero">
+        <h1 class="display-4 fw-bold">Neel Motawala</h1>
+        <p class="lead">Software Developer | BCA Student | Web & App Developer</p>
+        <a href="#contact" class="btn btn-primary mt-3">Get in Touch</a>
+    </div>
+
+    <!-- About -->
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <p class="intro">
+                    I'm a passionate BCA student with a strong foundation in both frontend and backend development. I specialize in building
+                    responsive web apps using HTML, CSS, JavaScript, Bootstrap, and
+                    backend tech like PHP and MySQL. Currently exploring React and
+                    Python while contributing to projects that bring real-world value.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="icon-box">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>HTML, CSS, JS, Bootstrap</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="icon-box">
+                    <i class="fas fa-database"></i>
+                    <p>PHP, Java, C++, MySQL</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="icon-box">
+                    <i class="fas fa-tools"></i>
+                    <p>XAMPP, Canva, WordPress</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card project-card shadow-sm">
+                    <img src="assets/images/inventory.jpg"
+                        class="project-img card-img-top" alt="Inventory System" />
+                    <div class="card-body">
+                        <h5 class="card-title">Inventory Management System</h5>
+                        <p class="card-text">
+                            Built using PHP, MySQL, Bootstrap — includes billing, CRUD,
+                            stock updates, and auto-invoice generation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card project-card shadow-sm">
+                    <img src="assets/images/Web_image.jpg"
+                        class="project-img card-img-top" alt="Static Sites" />
+                    <div class="card-body">
+                        <h5 class="card-title">Static Websites</h5>
+                        <p class="card-text">
+                            Created responsive landing pages and small business websites
+                            with clean UI/UX using Bootstrap & HTML/CSS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <h5 class="text-primary">Bachelor of Computer Application (BCA)</h5>
+                <p>
+                    <strong>Sarvajanik College of Commerce and Computer Application</strong><br />Surat,
+                    Gujarat<br />May 2023 – May 2026
+                </p>
+                <ul>
+                    <li>Current Year: 2nd Year</li>
+                    <li>
+                        Relevant Subjects: Data Structures, Web Development, Java, C++,
+                        MySQL
+                    </li>
+                    <li>Activities: Hackathons, Tech Events, Coding Competitions</li>
+                    <li>Learning Platforms: YouTube, freeCodeCamp, Coursera</li>
+                    <li>
+                        Certifications: C, C++, Java (IICL - Indian Institute of Computer
+                        Learning)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container" id="contact">
+        <h2 class="section-title text-center mb-4">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-4 contact-text-center">
+                <p>
+                    <i class="fas fa-map-marker-alt me-2"></i> Divya Jyoti Apartment,
+                    Adajan, Surat - 395009
+                </p>
+                <p>
+                    <i class="fas fa-envelope me-2"></i>
+                    <a href="mailto:neelmotawala07@gmail.com">neelmotawala07@gmail.com</a>
+                </p>
+                <p><i class="fas fa-phone me-2"></i> +91 93284 13056</p>
+                <a href="Neel_Resume.pdf" download class="btn btn-primary mt-2"><i class="fas fa-download"></i> Download
+                    Resume</a>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <form class="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Neel Motawala | Designed with using Bootstrap
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
